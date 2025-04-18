@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class DBConnection {
 	private static final String URL = "jdbc:mysql://localhost:3306/book_store?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
     private static final String USER = "root";  // WorkBanch Name
-    private static final String PASS = "2992003@utkarsh"; // Your Password
+    private static final String PASS = "2992003@****"; // Your WorkBench Password
 
     public static Connection getConnection() throws SQLException {
         try {
