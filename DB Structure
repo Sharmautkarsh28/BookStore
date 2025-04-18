@@ -1,4 +1,4 @@
-Create book_store;
+Create Database book_store;
 
 use book_store;
 
