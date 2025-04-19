@@ -7,7 +7,7 @@
 </head>
 <body>
 
-	<!-- Navbar -->
+	
 	<div class="navbar">
 		<a href="books.jsp">Home</a> <a href="CartServlet">Cart (<%=session.getAttribute("cartCount") == null ? 0 : session.getAttribute("cartCount")%>)
 		</a>
@@ -24,7 +24,7 @@
 				<th>Action</th>
 			</tr>
 			<%
-			// Retrieve the cart from session
+			
 			java.util.List<String[]> cart = (java.util.List<String[]>) session.getAttribute("cart");
 			double total = 0;
 
@@ -38,7 +38,7 @@
 				<td><%=book[1]%></td>
 				<td>₹<%=book[2]%></td>
 				<td>
-					<!-- Delete Button -->
+					
 					<form action="CartServlet" method="get">
 						<input type="hidden" name="action" value="remove"> <input
 							type="hidden" name="index" value="<%=i%>">
@@ -69,7 +69,7 @@
 	<%
 	if (cart != null && !cart.isEmpty()) {
 	%>
-	<!-- Buy Now Button -->
+	
 	<form action="BuyServlet" method="post">
 		<button type="submit" class="btn-buy">Buy Now</button>
 	</form>
