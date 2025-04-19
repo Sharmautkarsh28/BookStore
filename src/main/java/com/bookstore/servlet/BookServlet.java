@@ -18,15 +18,14 @@ public class BookServlet extends HttpServlet {
         try {
             con = DBConnection.getConnection();
 
-            // Handle delete request
             String deleteId = request.getParameter("deleteId");
             if (deleteId != null) {
-                // Delete book
+              
                 PreparedStatement stmt = con.prepareStatement("DELETE FROM books WHERE id=?");
                 stmt.setInt(1, Integer.parseInt(deleteId));
                 stmt.executeUpdate();
             } else {
-                // Handle add book request
+              
                 String title = request.getParameter("title");
                 String author = request.getParameter("author");
                 String priceStr = request.getParameter("price");
@@ -50,7 +49,7 @@ public class BookServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // You can use doGet to display books or handle other operations if needed.
+        
         response.sendRedirect("admin_dashboard.jsp");
     }
 }
