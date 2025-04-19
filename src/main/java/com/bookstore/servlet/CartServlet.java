@@ -20,12 +20,12 @@ public class CartServlet extends HttpServlet {
             cart = new ArrayList<>();
         }
 
-        // Get book details from form
+       
         String title = request.getParameter("title");
         String author = request.getParameter("author");
         String price = request.getParameter("price");
 
-        // Add book to cart
+     
         cart.add(new String[]{title, author, price});
         session.setAttribute("cart", cart);
         session.setAttribute("cartCount", cart.size());
@@ -36,7 +36,7 @@ public class CartServlet extends HttpServlet {
         HttpSession session = request.getSession();
         List<String[]> cart = (List<String[]>) session.getAttribute("cart");
 
-        // Check if remove action is requested
+        
         String action = request.getParameter("action");
         if ("remove".equals(action)) {
             int index = Integer.parseInt(request.getParameter("index"));
