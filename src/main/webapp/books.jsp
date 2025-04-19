@@ -28,7 +28,7 @@
 				<th>Action</th>
 			</tr>
 			<%
-			// Always fetch books from the database
+			
 			List<String[]> bookList = new java.util.ArrayList<>();
 			try (Connection con = DBConnection.getConnection()) {
 				PreparedStatement stmt = con.prepareStatement("SELECT * FROM books");
