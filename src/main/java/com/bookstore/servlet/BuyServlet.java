@@ -17,11 +17,11 @@ public class BuyServlet extends HttpServlet {
 
         if (cart != null && !cart.isEmpty()) {
             
-            // Clear the cart after purchase
+          
             session.removeAttribute("cart");
             session.setAttribute("cartCount", 0);
 
-            // Redirect to confirmation page
+            
             response.sendRedirect("order_success.jsp");
         } else {
             response.sendRedirect("cart.jsp?error=Your cart is empty!");
