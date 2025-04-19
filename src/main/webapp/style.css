@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
 	font-family: Arial, sans-serif;
 	margin: 0;
@@ -6,7 +6,7 @@ body {
 	background-color: #f4f4f4;
 }
 
-/* Navbar */
+
 .navbar {
 	background-color: #333;
 	padding: 15px;
@@ -26,14 +26,14 @@ body {
 	border-radius: 5px;
 }
 
-/* Page Header */
+
 h2 {
 	text-align: center;
 	color: #444;
 	margin-top: 20px;
 }
 
-/* Book Table */
+
 .table-container {
 	width: 80%;
 	margin: auto;
@@ -61,7 +61,7 @@ th {
 	color: white;
 }
 
-/* Buttons */
+
 .btn {
 	display: inline-block;
 	padding: 10px 15px;
@@ -75,7 +75,7 @@ th {
 	background-color: #218838;
 }
 
-/* Footer */
+
 .footer {
 	margin-top: 20px;
 	padding: 10px;
@@ -106,9 +106,7 @@ th {
 	background-color: #c82333;
 }
 
-/* Adminnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn */
 
-/* Admin Panel Styles */
 .admin-container {
 	width: 80%;
 	margin: auto;
@@ -130,7 +128,7 @@ h3 {
 	flex-wrap: wrap;
 }
 
-/* Admin Forms */
+
 .form-container {
 	background: #f9f9f9;
 	padding: 20px;
@@ -161,7 +159,6 @@ h3 {
 	background: #0056b3;
 }
 
-/* Admin Table */
 .admin-table {
 	width: 100%;
 	margin-top: 20px;
@@ -184,7 +181,7 @@ h3 {
 	background: #f9f9f9;
 }
 
-/* Delete Button */
+
 .btn-remove {
 	background: #dc3545;
 	color: white;
@@ -198,7 +195,7 @@ h3 {
 	background: #c82333;
 }
 
-/* Admin Navbar */
+
 .admin-navbar {
 	background: #333;
 	padding: 15px;
@@ -217,9 +214,7 @@ h3 {
 	border-radius: 5px;
 }
 
-/* hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
 
-/* Center Admin Dashboard */
 .admin-container {
 	width: 50%;
 	margin: 50px auto;
@@ -231,7 +226,7 @@ h3 {
 	text-align: center;
 }
 
-/* Improve Admin Login Page */
+
 .login-container {
 	width: 350px;
 	margin: 100px auto;
@@ -271,7 +266,7 @@ h3 {
 	background: #0056b3;
 }
 
-/* Admin Dashboard Table */
+
 .admin-table {
 	width: 100%;
 	border-collapse: collapse;
@@ -294,7 +289,7 @@ h3 {
 	background: #f9f9f9;
 }
 
-/* Delete Button */
+
 .btn-remove {
 	background: #dc3545;
 	color: white;
@@ -308,9 +303,7 @@ h3 {
 	background: #c82333;
 }
 
-/* Ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff */
 
-/* Front Page Styles */
 .container {
 	text-align: center;
 	margin-top: 100px;
@@ -355,8 +348,7 @@ p {
 	background: #b52b38;
 }
 
-/* Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb */
-/* Buy Button */
+
 .btn-buy {
 	display: block;
 	width: 200px;
@@ -377,7 +369,6 @@ p {
 	background: #218838;
 }
 
-/* Order Confirmation */
 .order-container {
 	text-align: center;
 	margin-top: 50px;
@@ -389,7 +380,7 @@ p {
 	border-radius: 5px;
 }
 
-/* Delete Button */
+
 .btn-delete {
 	display: inline-block;
 	padding: 8px 12px;
