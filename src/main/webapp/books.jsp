@@ -11,7 +11,7 @@
 <body>
 	
 
-	<!-- Navbar with Cart Count -->
+	
 	<div class="navbar">
 		<a href="books.jsp">Home</a> <a href="CartServlet">Cart (<%=session.getAttribute("cartCount") == null ? 0 : session.getAttribute("cartCount")%>)
 		</a>
