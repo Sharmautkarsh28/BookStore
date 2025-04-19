@@ -24,7 +24,7 @@
 <div class="admin-container">
     <h2>Admin Dashboard</h2>
 
-    <!-- Form to Add Books -->
+    
     <div class="form-container">
         <h3>Add a New Book</h3>
         <form action="BookServlet" method="post">
@@ -35,7 +35,7 @@
         </form>
     </div>
 
-    <!-- Display Books with Delete Option -->
+    
     <div class="table-container">
         <h3>Manage Books</h3>
         <table class="admin-table">
